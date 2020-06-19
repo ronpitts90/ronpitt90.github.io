@@ -10,7 +10,11 @@ body {
 .container {
     width: 1000px;
     margin: 50px auto;
-    background-color: grey;
+   
+}
+
+.media-body {
+    padding-left: 10px;
 }
 
 .rows {
@@ -22,3 +26,12 @@ body {
     height: 75%;
     width: 75%;
 }
+
+.float-right img {
+    float: right;
+}
+
+.float-left img {
+    float: left;
+}
+
