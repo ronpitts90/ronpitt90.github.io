@@ -7,27 +7,56 @@ body {
 
 }
 
+
 .container {
     width: 1000px;
     margin: 50px auto;
+    height: auto;
+    background-color: white;
    
 }
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-thumbnail
+{
+    margin-top: 25px;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+p {
+    padding: auto 30px;
+}
+
+.col-md-6 {
+    padding-left: 25px;
+   
+}
+
+ #tiger {
+    display: block;
+    margin: 25px auto;
+    width: 50%;
+ }
+
+
 
 .media-body {
     padding-left: 10px;
 }
 
-.rows {
 
-
-}
-
-.col-md-6 img {
+.rounded .float-left {
     height: 75%;
     width: 75%;
 }
 
-.float-right img {
+.rounded .float-right {
     float: right;
 }
 
@@ -35,3 +64,38 @@ body {
     float: left;
 }
 
+#eagle {
+    margin: auto;
+    width: 400px;
+}
+
+.footie {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+.container {
+        width: 100%;
+        padding: 20px;
+    }
+hr {
+    width: 100%;
+}
+    .row {
+    width: 100%;
+}
+
+.img-thumbnail {
+    width: 100%;
+}
+
+.media-body {
+    width: 100%;
+}
+
+#tiger {
+    width: 100%;
+}
+
+}
